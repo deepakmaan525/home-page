@@ -112,7 +112,11 @@
 .justify-content-center {
   justify-content: center;
 }
-
+.img-absolute{
+  position: absolute;
+  top: 39%;
+  right: 39%;
+}
 .bg-img {
   background-image: url(../images/background.png);
   background-repeat: no-repeat;
@@ -235,7 +239,7 @@ textarea {
   font-weight: 700;
   line-height: 150.5%;
   /* 96.32px */
-  max-width: 1044px;
+  max-width: 850px;
 }
 
 .f-lorem {
@@ -782,6 +786,7 @@ cursor: pointer;
     padding-left: 12px;
     padding-right: 12px;
   }
+  
   .ml-sm-0{
     margin-left: 0px;
   }
