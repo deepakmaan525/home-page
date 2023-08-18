@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,500&family=Roboto:wght@500&family=Yantramanav:wght@100;300;400;500&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +9,6 @@
   text-decoration: none;
   /* border: 2px solid red ; */
 }
-
 .container {
   max-width: 1320px;
   margin-left: auto;
@@ -16,7 +16,6 @@
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .row {
   display: flex;
   flex-direction: row;
@@ -24,70 +23,56 @@
   margin-left: -12px;
   margin-right: -12px;
 }
-
 .col-3 {
   width: 25%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-6 {
   width: 50%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-4 {
   width: 33.33%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-5 {
   width: 41.66%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-7 {
   width: 58.33%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-8 {
   width: 66.66%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .col-12 {
   width: 100%;
   padding-left: 12px;
   padding-right: 12px;
 }
-
 .card {
  width: 100%;
 }
-
-
 .card1:hover {
   border-radius: 5px;
   background: #2C49FE;
   padding-left: 12px;
   padding-right: 12px;
   color: #FFF;
-
-
 }
-
 .card2 {
   padding-left: 12px;
   padding-right: 12px;
   max-width: 260px;
 }
-
 .card1 {
   border-radius: 5px;
   background: #FFF;
@@ -95,7 +80,6 @@
   padding-right: 12px;
   border: 1px solid #2C49FE;
 }
-
 .card2:hover {
   padding-left: 12px;
   padding-right: 12px;
@@ -104,11 +88,9 @@
   box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
   transition: 500ms;
 }
-
 .d-flex {
   display: flex;
 }
-
 .justify-content-center {
   justify-content: center;
 }
@@ -122,9 +104,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: lightgray 50%;
-
 }
-
 .bg-blue {
   background: rgba(44, 73, 254, 0.80);
 }
@@ -133,275 +113,232 @@
   padding: 17PX 23PX;
   border-radius: 50PX;
 }
-
 .bg-girl-img {
-  background-image: url(../images/bg-girl-img.png);
+  background-image: url("../images/bg-girl-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
 }
-
 .bg-black {
   background-color: #000;
 }
-
 .cover {
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
-
 }
-
 .cover2 {
   background: rgba(44, 73, 254, 0.80);
   width: 100%;
-
 }
-
 .justify-content-space-between {
   justify-content: space-between;
 }
-
 .align-item-center {
   align-items: center;
 }
-
 .text-align-center {
   text-align: center;
 }
-
 .flex-direction-col {
   flex-direction: column;
 }
-
 .w-100 {
   width: 100%;
 }
-
 .w-190 {
   width: 190px;
 }
-
 .w-img-rec {
   max-width: 398px;
 }
-
 .h-8 {
   height: 8px;
 }
-
 .rec-img {
   max-width: 190px;
   height: 8px;
 }
-
 textarea {
   resize: none;
 }
-
 .flex-direction-col {
   flex-direction: column;
 }
-
 .f-events {
   color: #2c49fe;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 135%;
-  /* 48.6px */
+  line-height: 135%; 
 }
-
 .f-free {
   color: #01c8ff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 135%;
 }
-
 .f-nav {
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
 }
-
 .f-sed {
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
-  line-height: 150.5%;
-  /* 96.32px */
+  line-height: 150.5%; 
   max-width: 850px;
 }
-
 .f-lorem {
   color: #FFF;
-  font-family: Yantramanav;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   max-width: 765px;
 }
-
 .f-learnore {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%;
-  /* 30px */
+  line-height: 150%; 
 }
-
 .f-location {
   color: #FFF;
-  font-family: Yantramanav;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
 .line1 {
   margin-left: 50px;
   width: 3px;
   height: 74px;
   background: #FFF;
 }
-
 .f-city {
   color: rgba(255, 255, 255, 0.70);
-  font-family: Yantramanav;
+  font-family: 'Yantramanav', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-date {
   color: rgba(0, 0, 0, 0.70);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-joinus {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .f-form-lorem {
   color: rgba(0, 0, 0, 0.70);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   max-width: 543px;
 }
-
 .f-signup {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .f-what {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .f-lorem2 {
   color: rgba(0, 0, 0, 0.70);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   max-width: 633px;
 }
-
 .f-explore {
   max-width: 440px;
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 136.505%;
-  /* 65.522px */
+  line-height: 136.505%; 
 }
-
 .card1:hover>.f-sharing {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
 .f-lorem-footer {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   max-width: 346px;
 }
-
 .f-sharing {
   color: #2D3CAE;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
 .card1:hover>.f-lorem3 {
   color: #FFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
-
 .f-lorem3 {
   color: #2D3CAE;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
-
 .f-img-svg {
   fill: #FFF;
   background: #fff;
@@ -411,88 +348,79 @@ textarea {
   height: 79px;
   padding: 15px;
 }
-
 .f-lorem4 {
   color: #FFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
   max-width: 708px;
 }
-
 .f-small-lorem {
   color: #FFF;
   text-align: center;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   max-width: 765px;
 }
-
 .f-numbers {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .f-des {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-lorem5 {
   max-width: 540px;
   color: rgba(0, 0, 0, 0.70);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-lorem-card2 {
   max-width: 270px;
   color: rgba(0, 0, 0, 0.70);
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-lorem-small {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
 .f-learnmore {
   color: #000;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-
 .f-ul-main {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -500,21 +428,20 @@ textarea {
 }
 .f-signup1{
   color: #FFF;
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 600;
-line-height: 150%; /* 24px */
+line-height: 150%;
 }
 .f-ul {
   color: #FFF;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-
 .f-showmore {
   width: 100%;
   height: 100%;
@@ -524,14 +451,13 @@ line-height: 150%; /* 24px */
   color: #FFF;
   text-align: center;
   font-size: 12px;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   line-height: 150%;
 }
-
 .f-gocheck {
   color: #2C49FE;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -539,7 +465,7 @@ line-height: 150%; /* 24px */
 }
 .f-credits{
   color: #FFF;
-font-family: Poppins;
+font-family: 'Poppins', sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -550,7 +476,6 @@ line-height: normal;
   border: 1px solid rgba(0, 0, 0, 0.40);
   background: rgba(0, 0, 0, 0.00);
 }
-
 .mt-20 {
   margin-top: 20px;
 }
@@ -563,15 +488,12 @@ line-height: normal;
 .mb-12 {
   margin-bottom: 12px;
 }
-
 .mr-16 {
   margin-right: 16px;
 }
-
 .mb-20 {
   margin-bottom: 20px;
 }
-
 .mr-50 {
   margin-right: 50px;
 }
@@ -581,55 +503,42 @@ line-height: normal;
 .mr-15 {
   margin-right: 15px;
 }
-
 .mt-25 {
   margin-top: 25px;
 }
-
 .mr-30 {
   margin-right: 30px;
 }
-
 .mt-35 {
   margin-top: 35px;
 }
-
 .mt-50 {
   margin-top: 50px;
 }
-
 .mb-70 {
   margin-bottom: 70px;
 }
-
 .mt-100 {
   margin-top: 100px;
 }
-
 .mb-100 {
   margin-bottom: 100px;
 }
-
 .mt-140 {
   margin-top: 140px;
 }
-
 .mt-160 {
   margin-top: 160px;
 }
-
 .mr-10 {
   margin-right: 10px;
 }
-
 .mr-20 {
   margin-right: 20px;
 }
-
 .ml-133 {
   margin-left: 133px;
 }
-
 .pr-17 {
   padding-right: 17px;
 }
@@ -639,20 +548,16 @@ line-height: normal;
 .pl-17 {
   padding-left: 37px;
 }
-
 .py-20 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
 .pt-10 {
   padding-top: 10px;
 }
-
 .pb-8 {
   padding-bottom: 8px;
 }
-
 .pt-40 {
   padding-top: 40px;
 }
@@ -662,57 +567,44 @@ line-height: normal;
 .pl-80 {
   padding-left: 80px;
 }
-
 .pt-90 {
   padding-top: 90px;
 }
-
 .pt-130 {
   padding-top: 130px;
 }
-
 .pl-60 {
   padding-left: 60px;
 }
-
-
-
 .px-50 {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .pb-40 {
   padding-bottom: 40px;
 }
-
 .pr-60 {
   padding-right: 60px;
 }
-
 .pr-100 {
   padding-right: 100px;
 }
-
-
 .nav-button {
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%;
-  /* 24px */
+  line-height: 150%; 
   border-radius: 23px;
   background: #2c49fe;
   padding: 11px 28px;
   border: none;
   cursor: pointer;
 }
-
 .btn-getstarted {
   color: #fff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -723,12 +615,11 @@ line-height: normal;
   border: none;
   cursor: pointer;
 }
-
 .btn-go-check {
   border-radius: 150px;
   background: #FFF;
   color: #2C49FE;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -748,34 +639,27 @@ cursor: pointer;
 }
 .p-relative {
   position: relative;
-  top: 0;
-  right: 0;
+ 
 }
-
-.p-absolute {
+.p-sed-tortor {
   position: absolute;
   top: 29px;
   right: 154px;
 }
-
 .icon-absolute {
   position: absolute;
   top: -34px;
   left: 86px;
 }
-
-
 @media (min-width:576px) {
   .col-sm-12 {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
   }
-
   .flex-direction-row {
     flex-direction: row;
   }
-
   .col-sm-6 {
     width: 50%;
     padding-left: 12px;
@@ -785,8 +669,7 @@ cursor: pointer;
     width: 23%;
     padding-left: 12px;
     padding-right: 12px;
-  }
-  
+  }  
   .ml-sm-0{
     margin-left: 0px;
   }
@@ -817,13 +700,11 @@ cursor: pointer;
 }
 
 @media (min-width:768px) {
-
   .col-md-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
   }
-
   .col-md-3 {
     width: 35%;
     padding-left: 12px;
@@ -848,8 +729,7 @@ cursor: pointer;
     height: 2px;
     width: 100%;
     background-color: #FFF;
-    position: absolute;
-    
+    position: absolute;    
     top: 42%;
   }
   .bg-color-blue{
@@ -866,11 +746,9 @@ cursor: pointer;
     padding-left: 12px;
     padding-right: 12px;
   }
-
   .flex-direction-row {
     flex-direction: row;
   }
-
   .col-lg-5 {
     width: 41.66%;
     padding-left: 12px;
@@ -893,9 +771,6 @@ cursor: pointer;
     justify-content: center;
   }
 }
-
-
-
 @media (min-width:1200px) {
   .col-xl-6 {
     width: 50%;
@@ -941,20 +816,17 @@ cursor: pointer;
     right: 20px;
     top: 30px;
   }
-
   label[for="iconbar"]>span {
     width: 100%;
     height: 4px;
     background-color: rgb(91, 162, 224);
     z-index: 1;
   }
-
   input[type="checkbox"]:checked+ul.small-screen {
     right: 0;
     pointer-events: all;
     opacity: 1;
   }
-
   .small-screen {
     display: flex;
     align-items: center;
@@ -971,15 +843,12 @@ cursor: pointer;
     transition: all 800ms linear;
     top: 0;
   }
-
   .mx-ml-0 {
     margin-left: 0px;
   }
-
   .mx-mr-0 {
     margin-right: 0px;
   }
-
   .mx-my-30 {
     margin-top: 30px;
     margin-bottom: 30px;
